@@ -1,0 +1,36 @@
+{
+  "name": "alonsolee/FastWeChat",
+  "description": "基于EasyWechat二次封装",
+  "keywords": [
+    "wechat",
+    "weixin",
+    "laravel",
+    "sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "alonsolee ",
+      "email": "lizhenchang@gmail.com"
+    }
+  ],
+  "require": {
+    "overtrue/laravel-wechat": "~4.0",
+    "phpunit/phpunit": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "FastWeChat\\FastWeChat\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Overtrue\\LaravelWeChat\\ServiceProvider"
+      ],
+      "aliases": {
+        "FastWeChat": "FastWeChat\\FastWeChat\\Facade"
+      }
+    }
+  }
+}
