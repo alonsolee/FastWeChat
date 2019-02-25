@@ -18,15 +18,5 @@
     "psr-4": {
       "Alonsolee\\": "src/"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Alonsolee\\FastWeChat\\ServiceProvider"
-      ],
-      "aliases": {
-        "FastWeChat": "Alonsolee\\FastWeChat\\Facade"
-      }
-    }
   }
 }
