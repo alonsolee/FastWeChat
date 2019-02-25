@@ -22,10 +22,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "FastWeChat\\FastWeChat\\ServiceProvider"
+        "Alonsolee\\FastWeChat\\ServiceProvider"
       ],
       "aliases": {
-        "FastWeChat": "FastWeChat\\FastWeChat\\Facade"
+        "FastWeChat": "Alonsolee\\FastWeChat\\Facade"
       }
     }
   }
