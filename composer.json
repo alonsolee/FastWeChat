@@ -1,19 +1,15 @@
 {
   "name": "alonsolee/fastwechat",
-  "description": "基于EasyWechat二次封装",
-  "keywords": [
-    "wechat",
-    "weixin",
-    "laravel",
-    "sdk"
-  ],
+  "description": "基于easywechat的二次封装",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "alonsolee ",
+      "name": "alonso lee",
       "email": "lizhenchang@gmail.com"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "overtrue/laravel-wechat": "~4.0",
     "phpunit/phpunit": "^7.0"
