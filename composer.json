@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FastWeChat\\FastWeChat\\": "src/"
+      "Alonsolee\\": "src/"
     }
   },
   "extra": {
