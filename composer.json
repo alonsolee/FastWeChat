@@ -22,7 +22,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Overtrue\\LaravelWeChat\\ServiceProvider"
+        "Alonsolee\\FastWeChat\\ServiceProvider"
       ],
       "aliases": {
         "FastWeChat": "FastWeChat\\FastWeChat\\Facade"
